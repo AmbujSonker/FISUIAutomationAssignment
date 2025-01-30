@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="EbaySuite">
+    <test name="EbayTest">
+        <classes>
+            <class name="com.ebay.qa.testcases.AddToCartTest"/>  <!-- Specify your package and class -->
+        </classes>
+    </test>
+</suite>
