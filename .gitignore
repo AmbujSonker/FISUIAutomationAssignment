@@ -1,0 +1,54 @@
+# Ignore compiled Java files
+*.class
+*.jar
+
+# Ignore Maven target directory
+target/
+
+
+# Ignore dependency caches
+**/out/
+**/bin/
+!src/main/**/bin/
+!src/test/**/bin/
+
+# Ignore Eclipse/IntelliJ IDE settings
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+
+# Ignore logs and reports
+*.log
+logs/
+test-output/
+allure-results/
+reports/
+surefire-reports/
+extent-report.html
+
+# Ignore environment and configuration files
+*.properties
+*.env
+config/
+
+# Ignore Selenium WebDriver files (if stored locally)
+chromedriver.exe
+geckodriver.exe
+chromedriver.log
+
+# Ignore test screenshots
+screenshots/
+
+# Ignore package-lock and dependencies (for Node.js-based test runners)
+package-lock.json
+node_modules/
+
+# Ignore temporary and backup files
+*.swp
+*.swo
+*.bak
+ 
