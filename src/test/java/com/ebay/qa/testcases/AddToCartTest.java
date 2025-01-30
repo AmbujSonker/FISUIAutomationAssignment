@@ -23,7 +23,7 @@ public class AddToCartTest extends TestBase {
 		//Initialize WebDriver
 		initializeWebDriver();
 
-		// Navigate to eBay
+		// Navigate to eBay site
 		navigateToURL();	
 	}
 
