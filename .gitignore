@@ -45,7 +45,7 @@ screenshots/
 
 # Ignore package-lock and dependencies (for Node.js-based test runners)
 package-lock.json
-node_modules/
+
 
 # Ignore temporary and backup files
 *.swp
